@@ -1,0 +1,12 @@
+log_name: "" # default.json
+
+prefix: ""
+num_trials: 3
+max_trial_time: 60.0 
+dataset: "basic/circle_crowd"
+min_human: 1
+max_human: 10
+goal_radius: 0.3
+
+ros:
+  reset_service: "/unity/reset"
